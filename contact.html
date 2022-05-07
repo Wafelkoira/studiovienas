@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <html lang="en">
+    <link rel="icon" type="image/x-icon" href="/images/studiovienaslogo2.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact</title>
+    <script src="/localization.js"></script>
+    <link rel="stylesheet" href="/scripts/index.css">  
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+
+    
+
+    <div style="position: absolute; right: 0; left: 0; padding: 1rem; text-align: center;" class="description">
+      
+      <h1 data-i18n-key="i-am" style="color: whitesmoke;">Contact</h1>
+
+      <img width="200px" height="200px" src="/images/studiovienaslogo2.png" alt="My logo">
+
+      <p data-i18n-key="i-am" style="color: whitesmoke;">If you wish to contact us, please E-mail our address:</p>
+      <p data-i18n-key="i-am" style="color: whitesmoke;">contact.studiovienas@gmail.com</p>
+      <p data-i18n-key="contact" style="color: whitesmoke;" >© 2022 Studio Vienas | <a href="/">Homepage</a> | <a href="/privacy">Privacy Policy</a></p>
+      
+    </div>
+
+  </body>
+
+</html>
+<script>
+      document.getElementById("switcher").addEventListener("change",function(){
+      var e = document.getElementById("switcher");
+      var lang = e.value;
+      localStorage.setItem('currentLang', JSON.stringify(lang));
+      console.log(lang)
+  })
+</script>

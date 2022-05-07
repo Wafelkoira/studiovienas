@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <html lang="en">
+    <link rel="icon" type="image/x-icon" href="/images/studiovienaslogo2.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Privacy Policy</title>
+    <script src="/localization.js"></script>
+    <link rel="stylesheet" href="/scripts/index.css">  
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+
+    
+
+    <div style="position: absolute; right: 0; left: 0; padding: 1rem; text-align: center;" class="description">
+      
+
+      <img width="200px" height="200px" src="/images/studiovienaslogo2.png" alt="My logo">
+
+      <p data-i18n-key="i-am" style="color: whitesmoke;">Privacy Policy (Updated May 5, 2022)</p>
+      <p data-i18n-key="working-on" style="color: whitesmoke;">In short: We do not track you.</p>
+      <p data-i18n-key="contact" style="color: whitesmoke;" >Studio Vienas does not collect any information across this website, https://studiovienas.com.</p>
+      <p data-i18n-key="contact" style="color: whitesmoke;" >Studio Vienas does not share your information publicly unless law requires it to be shared.</p>
+      <p data-i18n-key="contact" style="color: whitesmoke;" >This website may provide links to external sites that we do not operate.</p>
+      <p data-i18n-key="contact" style="color: whitesmoke;" >Please be aware that we have no control of the privacy practices of the linked sites.</p>
+      <p data-i18n-key="contact" style="color: whitesmoke;" >If you have any questions, feel free to <a href="/contact">contact us.</a></p>
+      <p data-i18n-key="contact" style="color: whitesmoke;" >© 2022 Studio Vienas | <a href="/">Homepage</a></p>
+            
+    </div>
+
+  </body>
+
+</html>
+<script>
+      document.getElementById("switcher").addEventListener("change",function(){
+      var e = document.getElementById("switcher");
+      var lang = e.value;
+      localStorage.setItem('currentLang', JSON.stringify(lang));
+      console.log(lang)
+  })
+</script>
