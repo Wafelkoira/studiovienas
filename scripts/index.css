@@ -9,6 +9,10 @@ h1 {
   color: whitesmoke;
 }
 
+.aligncenter2 {
+    text-align: center;
+}
+
 p {
   color: whitesmoke;
 }
@@ -65,6 +69,10 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.image2 {
+  border-radius: 10%;
 }
 
 .footer {
